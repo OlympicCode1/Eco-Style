@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Çevrimiçi Gardırop - Sürdürülebilirlik Önceliği</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Sabit Başlık -->
+  <header>
+    <img src="media/logo.png" style="width: 70px; height: auto;"><img>
+    <nav>
+      <ul>
+        <li><a href="#hero">Anasayfa</a></li>
+        <li><a href="#features">Özellikler</a></li>
+        <li><a href="#dashboard">Panel</a></li>
+        <li><a href="#marketplace">Pazar Yeri</a></li>
+        <li><a href="#profile">Profilim</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Kahraman Bölümü -->
+    <section id="hero">
+      <h2>Giy. Takip Et. Sürdür.</h2>
+      <p>Gardırobunuzu sürdürülebilir bir hale dönüştürün.</p>
+      <button onclick="redirectToDashboard()">Başlayın</button>
+    </section>
+
+    <!-- Özellikler Bölümü -->
+    <section id="features">
+      <h3>Özellikler</h3>
+      <ul>
+        <li>Gardırobunuzu kolaylıkla ve şık bir şekilde takip edin.</li>
+        <li>Giyinme sayısı ve sürdürülebilirlik istatistiklerini gerçek zamanlı görün.</li>
+        <li>Pazar yerimizde ikinci el eşyalar alıp satın.</li>
+      </ul>
+      <img src="media/wardrobe.png" style="width: 1000px; height: auto; align-items: center; justify-content: center;">
+    </section>
+
+
+
+    <!-- Pazar Yeri Bölümü -->
+    <section id="marketplace">
+      <h3>İkinci El Pazar Yeri</h3>
+      <p>İkinci el kıyafet ve aksesuarları satın alın ya da satın.</p>
+      <img src="media/sustainibility.png" alt="İkinci el pazar yeri illüstrasyonu">
+    </section>
+
+    <!-- Profil Bölümü -->
+    <section id="profile">
+      <h3>Profilim</h3>
+      <p>Gardırobunuzdaki bazı eşyalar:</p>
+      <div class="clothes-list">
+        <div class="clothing-item">
+          <img src="media/photo1.png" alt="Mont">
+          <p><strong>Ad:</strong> Kışlık Mont</p>
+          <p><strong>Marka:</strong> Philipp Plein</p>
+          <p><strong>Giyilme Sayısı:</strong> 15</p>
+          <p><strong>Son Giyilme:</strong> 2 hafta önce</p>
+        </div>
+        <div class="clothing-item">
+          <img src="media/photo2.png" alt="Gömlek">
+          <p><strong>Ad:</strong> Kaban</p>
+          <p><strong>Marka:</strong> Zara</p>
+          <p><strong>Giyilme Sayısı:</strong> 7</p>
+          <p><strong>Son Giyilme:</strong> 3 gün önce</p>
+        </div>
+        <div class="clothing-item">
+          <img src="media/photo3.png" alt="Hırka">
+          <p><strong>Ad:</strong> Hırka</p>
+          <p><strong>Marka:</strong> H&M</p>
+          <p><strong>Giyilme Sayısı:</strong> 20</p>
+          <p><strong>Son Giyilme:</strong> Dün</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Çevrimiçi Gardırop</p>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
